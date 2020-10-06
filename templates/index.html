@@ -37,10 +37,9 @@
 
 
         </form>
-
-
-
-        <br><br><h3 style="color:red" >{{ prediction_text }} lacs<h3>
+        {% if prediction_text %}
+              <br><br><h3 style="color:red" >{{ prediction_text }} lacs<h3>
+        {% endif %}
     </div>
 
 
